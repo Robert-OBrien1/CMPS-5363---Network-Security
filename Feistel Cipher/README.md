@@ -10,7 +10,7 @@ algorithm must run 4 rounds of encryption. The sub-keys should be generated from
 16 rightmost bits of the key. The use of the key in the second round and beyond should be preceded by a four
 bits left circular rotation of the 16 bits used in the previous round. The F function should consist of a
 permutation reversing the byte configuration of its input (example with 16 bits:
-b<sup>15</sup>b14b13b12b11b10b9b8b7b6b5b4b3b2b1b0 would become b7b6b5b4b3b2b1b0b15b14b13b12b11b10b9b8) and an XOR with
+b<sub>15</sub>b<sub>14</sub>b<sub>13</sub>b<sub>12</sub>b<sub>11</sub>b<sub>10</sub>b<sub>9</sub>b<sub>8</sub>b<sub>7</sub>b<sub>6</sub>b<sub>5</sub>b<sub>4</sub>b<sub>3</sub>b<sub>2</sub>b<sub>1</sub>b<sub>0</sub> would become b7b6b5b4b3b2b1b0b15b14b13b12b11b10b9b8) and an XOR with
 the current round key value. According to Feistel, it is easy to notice that the plaintext blocks entering the
 encryption algorithm will consist of 32 bits (4 bytes). The program output must be the encrypted text displayed
 in hexadecimal (ciphertext).
