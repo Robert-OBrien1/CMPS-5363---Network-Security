@@ -1,3 +1,5 @@
+############ ******** IN PROGRESS ********
+
 #### Project Desciption:
 
 Write a program that inputs from the keyboard a decimal number k, such that 0 ≤ k < 2
