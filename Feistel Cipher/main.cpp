@@ -8,7 +8,7 @@ unsigned int getkey(unsigned int &k);
 string getplaintext(string &plaintext);
 
 
-// // ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ Main Driver ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+//  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ Main Driver ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 int main() 
 {
   // key variable
@@ -52,7 +52,7 @@ unsigned int getkey(unsigned int &k)
 
 string getplaintext(string &plaintext)
 {
-  // get plaintext 
+  // prompt user to enter plaintext 
   cout << "\n\nEnter plaintext\n\n";
   // get line input and include white spaces
   getline(cin >> ws, plaintext);
