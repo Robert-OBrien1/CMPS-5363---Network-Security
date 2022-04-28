@@ -1,7 +1,8 @@
 <p align="center">
 ******** COMPLETED ********
 </p>
-#### Project Desciption:
+
+#### Project Desciption: 
 
 Write a program that inputs from the keyboard a decimal number k, such that 0 ≤ k < 2<sup>24</sup> (KEY), and then
 requests a plaintext sentence to be encrypted using an algorithm implemented by you. Plaintexts may contain
