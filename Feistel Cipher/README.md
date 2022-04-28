@@ -23,7 +23,7 @@ in hexadecimal (ciphertext).
 Projects will need to handle input strings limited by the end of line or a maximum of 50 characters(example:
 LOSS_OF_POINTS_CAUSED_BY_NOT_READING_THIS). In case the string length is not a multiple of 4,
 characters from the beginning of the string should be used to fill the open spaces (Example: FGRADE, should
-be treated as FGRADE**FG). Encryption does not need to be tested for inverted operation, so do not try to
+be treated as FGRADE**FG**). Encryption does not need to be tested for inverted operation, so do not try to
 develop a decryption version of the algorithm (Feistel decryption uses the same algorithm with reversed keys).
 
 ![Screenshot (159)](https://user-images.githubusercontent.com/70295373/165670512-5484f37f-54a4-45fb-a737-7a1cde1c2a0d.png)
