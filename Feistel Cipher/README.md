@@ -1,4 +1,6 @@
-                                  ******** COMPLETED ********
+                                 <p align="center">
+                                 ******** COMPLETED ********
+                                 </p>
 
 #### Project Desciption:
 
