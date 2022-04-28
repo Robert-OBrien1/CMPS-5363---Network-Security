@@ -1,11 +1,9 @@
-                                 <p align="center">
-                                 ******** COMPLETED ********
-                                 </p>
-
+<p align="center">
+******** COMPLETED ********
+</p>
 #### Project Desciption:
 
-Write a program that inputs from the keyboard a decimal number k, such that 0 ≤ k < 2
-24 (KEY), and then
+Write a program that inputs from the keyboard a decimal number k, such that 0 ≤ k < 2<sup>24</sup> (KEY), and then
 requests a plaintext sentence to be encrypted using an algorithm implemented by you. Plaintexts may contain
 any characters (except spaces). Your algorithm must be based on the Feistel cipher (similar to DES). The
 algorithm must run 4 rounds of encryption. The sub-keys should be generated from the original key by using the
@@ -28,4 +26,6 @@ characters from the beginning of the string should be used to fill the open spac
 be treated as FGRADE**FG**). Encryption does not need to be tested for inverted operation, so do not try to
 develop a decryption version of the algorithm (Feistel decryption uses the same algorithm with reversed keys).
 
-![Screenshot (159)](https://user-images.githubusercontent.com/70295373/165670512-5484f37f-54a4-45fb-a737-7a1cde1c2a0d.png)
+<p align="center">
+<img width="400" src = "https://user-images.githubusercontent.com/70295373/165670512-5484f37f-54a4-45fb-a737-7a1cde1c2a0d.png"
+</p>
